@@ -2,6 +2,7 @@
     materialized='table'
     ) 
 }}
+
 with source_data as (
 
     SELECT E.NAME EMPLOYEE_NAME, D.NAME DEPARTMENT_NAME FROM EMPLOYEES E
